@@ -1,0 +1,39 @@
+/*  GLOBAL RULES    */
+
+/*  FONT SETUP  */
+:root {
+    --font-family: "Afacad", sans-serif;
+    --font-size-base: 14px;
+}
+
+/*  COLOR SETUP */
+:root {
+    --light-pale-violet-red: #f2a0b6;
+    --red-blush:#f2cab3;
+    --light-green: #ccf279;
+    --celestial: #cef2ef;
+    --caramel: #d99f59;
+    --dark-violet-red: #4d323c;
+    --warm-white: #fffbed;
+}
+
+/*  PAGE SETUP */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/*  type of font family
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700
+
+.afacad-<uniquifier> {
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+*/
